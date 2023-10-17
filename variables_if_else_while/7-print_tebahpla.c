@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - Prints smile in the mirror
  *
  * Return: Always 0.
  *
@@ -13,7 +13,7 @@ int main(void)
 
 	for (l = 'z'; l < 'a'; l++)
 	{
-		putchar(l);
+		putchar('A' + l);
 	}
 	{
 		putchar('\n');
