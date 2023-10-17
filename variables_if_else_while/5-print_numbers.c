@@ -11,9 +11,16 @@
 int main(void)
 
 {
-	char  m;
+	int m;
 
-	printf("m = 0; m <= 10;\n");
+	for (m = 0; m <= 10; m++)
+	{
+		printf("%d", m++);
+	}
+	{
+	printf("\n");
+	}
+
 	return (0);
 }
 
