@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints Smile in the mirror
+ * main - Entry point
  *
  * Return: Always 0.
  *
