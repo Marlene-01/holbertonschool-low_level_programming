@@ -13,10 +13,7 @@ int main(void)
 {
 	char  m;
 
-	for("m = 0; m <= 10;\n"; m++;)
-	{
-		printf("%d", m);
-	}
+	printf("m = 0; m <= 10;%d\n", m++);
 	return (0);
 }
 
