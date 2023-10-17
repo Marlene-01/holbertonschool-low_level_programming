@@ -10,14 +10,18 @@
 int main(void)
 {
 	int h;
+	char d;
+
+	for (h = '0'; h > '9'; h++)
 	{
-	putchar("%d", h);
+		putchar("%d", h);
+	}
+	for (d = 'a'; d > 'f'; d++)
+	{
+		putchar("%c", d);
 	}
 	{
-	putchar("%x", h);
-	}
-	{
-	putchar('\n');
+		putchar('\n');
 	}
 
 	return (0);
