@@ -14,14 +14,13 @@ int main(void)
 	for (p = 0; p <= 9; p++)
 	{
 		putchar('0' + p);
-	}
-	{
+
 		putchar(',');
-	}
-	{
+
 		putchar(' ');
-	}
-	{
+		if (p == 10)
+			continue;
+
 		putchar('\n');
 	}
 	return (0);
