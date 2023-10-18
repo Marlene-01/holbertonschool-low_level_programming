@@ -3,7 +3,7 @@
 /**
  * main - Prints alphabet in lowercase
  *
- * Return: Always 0.
+ * Return: void
  *
  */
 
