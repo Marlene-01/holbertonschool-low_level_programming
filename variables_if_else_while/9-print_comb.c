@@ -18,7 +18,7 @@ int main(void)
 		putchar(',');
 
 		putchar(' ');
-		if (p == 10)
+		if (p == 10);
 			continue;
 
 		putchar('\n');
